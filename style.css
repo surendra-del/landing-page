@@ -5,6 +5,11 @@ body {
     flex-direction: column;
 }
 
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
 /* Header Styling */
 .header {
     display: flex;
@@ -95,10 +100,6 @@ body {
     color: #1f2937;
 }
 
-.info h2, p {
-    margin: 0;
-}
-
 .info h2 {
     font-size: 36px;
     font-weight: bolder;
@@ -162,4 +163,52 @@ body {
     font-weight: bolder;
     font-size: 20px;
     align-self: flex-end;
+}
+
+/* outro Styling */
+.outro {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.outro .outro-content {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 50px 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.outro .outro-content .outro-left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.outro-left h3 {
+    color: #F9FAF8;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.outro-left p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.outro-right button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+    border-color: #F9FAF8;
+    border-width: 2px;
+    border-style: solid;   
 }
